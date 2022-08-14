@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css float margin padding</title>
+    <style>
+        *{
+            box-sizing: border-box;
+
+        }
+        .container{
+            width: 900px;
+            border: 3px solid purple;
+            margin: 33px auto;
+
+        }
+        .item{
+            border: 3px solid gray;
+            padding: 12px 3px;
+            margin: 12px 3px;
+            background: rgb(244, 214, 214);
+        }
+        
+
+        #fruit{
+            float: left;
+            width: 48%;
+
+        }
+
+        #computer{
+            float: right;
+            width: 48%;
+
+        }
+
+        #stationary{
+            /* float: left; */
+            width: 99.7%;
+            clear: both;
+
+        }
+        p{
+            text-align: center;
+            text-align: left;
+            text-align: justify;
+
+        }
+        h3, h1{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1>Welcome to my store</h1>
+    
+    <div id="fruit" class="item">
+        <h3>Fruits</h3>
+        <p id="fruitpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, praesentium recusandae. Architecto dolorem ducimus eos explicabo obcaecati eligendi recusandae ipsa dolorum vel rerum enim tempore maiores, voluptas ratione voluptatem nesciunt neque itaque culpa Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae sequi veniam qui, architecto voluptatem dolorem. Ipsa aspernatur est, et asperiores consequatur impedit minus nisi vero excepturi, sequi veritatis, ipsam dolorem itaque quisquam magnam laboriosam! </p>
+
+    </div>
+    <div id="computer" class="item">
+        <h3>computer</h3>
+        <p id="computerpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, praesentium recusandae. Architecto dolorem ducimus eos explicabo obcaecati eligendi recusandae ipsa dolorum vel rerum enim tempore maiores, voluptas ratione voluptatem nesciunt neque itaque culpa Lorem ipsum dolor sit, amet consectetur adipisicing elit. In eligendi tenetur numquam placeat consectetur repellendus iure tempore nobis pariatur quo. ipsum dolor sit amet consectetur adipisicing elit. Cupiditate doloribus aperiam consectetur tempora excepturi, alias iste ex commodi laudantium quod. Voluptas incidunt neque quos eaque consequatur molestias magnam, obcaecati illo enim deserunt hic quae? </p>
+
+    </div>
+    <div id="stationary" class="item">
+        <h3>Stationary</h3>
+        <p id="stationarypara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, praesentium recusandae. Architecto dolorem ducimus eos explicabo obcaecati eligendi recusandae ipsa dolorum vel rerum enim tempore maiores, voluptas ratione voluptatem nesciunt neque itaque culpa Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab molestiae mollitia veniam eligendi molestias eius quasi natus laudantium? Dignissimos, architecto vel, iusto repellendus voluptate numquam praesentium delectus temporibus unde possimus quos ipsum eligendi molestias? </p>
+
+    </div>
+
+
+</div>
+    
+</body>
+</html>
